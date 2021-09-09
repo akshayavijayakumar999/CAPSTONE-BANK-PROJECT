@@ -43,7 +43,7 @@ export class AddCustomerComponent implements OnInit {
         this.router.navigate(['login']);
       },
       (error: HttpErrorResponse) => {
-        // alert(error.message);
+         alert(error.message +"Invalid Entry");
         // addForm.reset();
       }
     );}
